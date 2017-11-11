@@ -178,63 +178,7 @@ d($variable);
 }
 ```
 
-##Magento
->Magento is the World’s #1 Commerce Platform
-Magento is the leading platform for open commerce innovation. Every year, Magento handles over $100 billion in gross merchandise volume
-
-
->Magento is the leading eCommerce platform used for online stores. It is a high-performant, scalable solution with powerful out of the box functionality and a large community built around it that continues to add new features.
-
-CE AND EE
-* MAGENTO - (2008)
-* MAGENTO 2 - (2015)
-
-
----------------------------------------
-
-
-
-__wakeup(), __sleep()
-
-
-
-The __get() method is called whenever you attempt to read a non-existing or private property of an object.
-The __set() method is called whenever you attempt to write to a non-existing or private property of an object.
-
-```
-<?php
- 
-class Person{
-	private $firstName;
- 
-	public function __get($propertyName){
-		echo "attempted to read non-existing property: $propertyName";
-	}	
-	public function __set($propertyNane, $propertyValue){
-		echo "attempted to write to non-existing property: $propertyNane";
-	} 
-}
- 
-$p = new Person();
-
-$p->firstName = 'Doe';
-echo $p->firstName;
- 
-$p->lastName = 'John';
-echo $p->lastName;
-```
-
-
-    First, we attempted to write and read a private property: $firstName.  The method __get() and __set() methods are called automatically.
-    Second, we attempted to write and read a non-existing property: $lastName. The method __get() and __set() methods are also called automatically.
-
-
-
-Similar to the __get() and __set() methods, the __call() magic method is called automatically when a nonexistent method of the class is called. 
-
-https://code.tutsplus.com/tutorials/deciphering-magic-methods-in-php--net-13085
-
-----------------------------------------------
+--------------------------------------
 
 ## Dependency Injection
 More specifically, dependency injection is effective in these situations:
@@ -308,6 +252,20 @@ public class Client implements ServiceSetter {
     }
 }
 ```
+
+## Magento
+>Magento is the World’s #1 Commerce Platform
+Magento is the leading platform for open commerce innovation. Every year, Magento handles over $100 billion in gross merchandise volume
+
+
+>Magento is the leading eCommerce platform used for online stores. It is a high-performant, scalable solution with powerful out of the box functionality and a large community built around it that continues to add new features.
+
+CE AND EE
+* MAGENTO - (2008)
+* MAGENTO 2 - (2015)
+
+
+---------------------------------------
 
 ## Magento2 Object Manager
 
@@ -401,7 +359,6 @@ The following example creates instances of Magento\Core\Model\Session with the c
     </type>
 </config>
 ```
-
 
 ### Abstraction-implementation mappings
 
@@ -559,13 +516,13 @@ $resultItem = $this->itemFactory->create([
 ]);
 ```
   
-  ### Proxies
+### Proxies
   
-  Magento’s constructor injection pattern enables you to flexibly manage your class dependencies. 
+Magento’s constructor injection pattern enables you to flexibly manage your class dependencies. 
   
-  If a class’s constructor is particularly resource-intensive, this can lead to unnecessary performance impact when another class depends on it
+If a class’s constructor is particularly resource-intensive, this can lead to unnecessary performance impact when another class depends on it
   
-  As an example, consider the following two classes:
+As an example, consider the following two classes:
   ``` 
   class SlowLoading
   {
