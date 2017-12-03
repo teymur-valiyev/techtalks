@@ -8,7 +8,7 @@ title:               TechTalks
 tagline:             'TechTalks'
 description:         'TechTalks'
 url:                 https://teymur647.github.io/techtalks/
-baseurl:             '/techtalks'
+baseurl:             ''
 paginate:            5
 
 # About/contact
