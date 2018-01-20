@@ -343,6 +343,68 @@ myFunc();
 console.log(c);
 ```
 
+##  let && var && const
+
+### var
+```
+for(var i = 0; i<10; i++) {
+  console.log(i)
+}
+console.log(i)
+```
+
+```
+function(){
+  for(var i = 0; i<10; i++) {
+    console.log(i)
+  }
+  console.log(i)
+}
+```
+
+```
+function printing(){
+  for(var i = 0; i<10; i++) {
+    console.log(i)
+  }
+}
+printing()
+console.log(i)
+```
+
+```
+(function (){
+  for(var i = 0; i<10; i++) {
+    console.log(i)
+  }
+})()
+```
+
+### let
+The let statement declares a block scope local variable
+
+```
+for(let i = 0; i<10; i++) {
+  console.log(i)
+}
+console.log(i)
+```
+
+### const
+
+Constants are block-scoped, much like variables defined using the let statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
+
+```
+const foo = 5;
+foo = 10 // this will throw an error
+```
+```
+const dog={
+  age: 3
+}
+dog.age = 5
+dog = { name: 'biko'}
+```
 
 ## Object 
 
@@ -405,4 +467,7 @@ for(let key in user) {
 When JavaScript was created, there was an idea of a “global object” that provides all global variables and functions
 
 
-> https://javascript.info/
+## References
+https://javascript.info/
+https://medium.com/craft-academy/javascript-variables-should-you-use-let-var-or-const-394f7645c88f
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
