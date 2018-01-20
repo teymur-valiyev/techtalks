@@ -7,14 +7,14 @@ permalink:           /:year/:month/:day/:title/
 title:               TechTalks
 tagline:             'TechTalks'
 description:         'TechTalks'
-url:                 https://teymur647.github.io/techtalks
+url:                 https://teymur-valiyev.github.io/techtalks/
 baseurl:             '/techtalks'
 paginate:            5
 
 # About/contact
 author:
   name:              TechTalks
-  url:               https://teymur647.github.io/techtalks/
+  url:               https://teymur-valiyev.github.io/techtalks/
   email:             teymur.veliyev001@gmail.com
 
 # Custom vars
