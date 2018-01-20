@@ -463,11 +463,69 @@ for(let key in user) {
 }
 ```
 
+```
+var myObject = {};
+Object.defineProperty( myObject, "a", {
+  value: 2,
+  writable: true,
+  configurable: true,
+  enumerable: true
+} );
+myObject.a; // 2
+```
+
+```
+var myObject = {};
+Object.defineProperty( myObject, "a", {
+  value: 2,
+  writable: false, // not writable!
+  configurable: true,
+  enumerable: true
+} );
+myObject.a = 3;
+myObject.a; // 2
+```
+
+```
+var myObject = {
+a: 2
+};
+myObject.a = 3;
+myObject.a; // 3
+
+Object.defineProperty( myObject, "a", {
+  value: 4,
+  writable: true,
+  configurable: false, // not configurable!
+  enumerable: true
+} );
+
+myObject.a; // 4
+myObject.a = 5;
+myObject.a; // 5
+Object.defineProperty( myObject, "a", {
+  value: 6,
+  writable: true,
+  configurable: true,
+  enumerable: true
+} ); // TypeError
+```
+
+```
+var myObject = {
+  a: 2
+};
+myObject.a; // 2
+
+```
+
+
 ## Global object
 When JavaScript was created, there was an idea of a “global object” that provides all global variables and functions
 
 
 ## References
-https://javascript.info/
-https://medium.com/craft-academy/javascript-variables-should-you-use-let-var-or-const-394f7645c88f
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+* https://github.com/getify/You-Dont-Know-JS
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+* https://medium.com/craft-academy/javascript-variables-should-you-use-let-var-or-const-394f7645c88f
+* https://javascript.info/
