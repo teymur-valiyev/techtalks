@@ -4,12 +4,12 @@ Usage:
   1) assign the 'page_tags' variable to a valid array of tags.
   2) include page_tags_list
   example:
-  	  {% assign page_tags = page.tags %}  
+  	  {% assign page_tags = page.tags %}
   	  {% include page_tags_list %}
 -->{% endcomment %}
 
 {% for tag in page_tags %}
-  <a href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
+  <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
   {% unless forloop.last %}
     &middot;
   {% endunless %}

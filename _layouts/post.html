@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date: "%-d %B %Y" }} &middot; Filed in <a href="{{ site.url }}/categories/#{{ page.categories }}">{{ page.categories }}</a></span>
+  <span class="post-date">{{ page.date | date: "%-d %B %Y" }} &middot; Filed in <a href="{{ site.baseurl }}/categories/#{{ page.categories }}">{{ page.categories }}</a></span>
   {{ content }}
   <span class="post-date">Tags:
     {% assign page_tags = page.tags | sort %}
@@ -12,11 +12,11 @@ layout: default
   </span>
   {% if page.previous %}
     <span class="post-date">
-    <i class="fa fa-arrow-circle-left"></i> Previous Post: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
+    <i class="fa fa-arrow-circle-left"></i> Previous Post: <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a></span>
   {% endif %}
   {% if page.next %}
     <span class="post-date">
-    Next Post: <a href="{{ page.next.url }}">{{ page.next.title }}</a> <i class="fa fa-arrow-circle-right"></i></span>
+    Next Post: <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a> <i class="fa fa-arrow-circle-right"></i></span>
   {% endif %}
 </div>
 
@@ -26,7 +26,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ site.url }}{{ post.url }}">
+          <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
