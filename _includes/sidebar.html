@@ -5,7 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p><img src="{{ site.url }}/public/img/orbits-thumb.gif" alt="Orbits" width="128" height="128" /></p>
+    <p><img src="{{ site.baseurl }}/public/img/space.jpg" alt="Orbits" width="128" height="128" /></p>
     <p>{{ site.description }}</p>
   </div>
 
@@ -21,7 +21,7 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/{{ node.url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -29,9 +29,9 @@
 
   <div class="sidebar-item">
     <p>
-      <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github fa-3x"></i></a>
-      <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter fa-3x"></i></a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin-square fa-3x"></i></a>
+      <a href="https://github.com{{ site.author.github }}"><i class="fa fa-github fa-3x"></i></a>
+      <a href="https://twitter.com{{ site.author.twitter }}"><i class="fa fa-twitter fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in{{ site.author.linkedin }}"><i class="fa fa-linkedin-square fa-3x"></i></a>
     </p>
   </div>
 

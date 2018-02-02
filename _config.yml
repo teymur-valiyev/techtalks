@@ -4,8 +4,8 @@
 permalink:           /:year/:month/:day/:title/
 
 # Setup
-title:               TechTalks
-tagline:             'TechTalks'
+title:               Teymur Valiyev
+tagline:             'Weblog'
 description:         'TechTalks'
 url:                 https://teymur-valiyev.github.io
 baseurl:             '/techtalks'
@@ -18,7 +18,7 @@ author:
   email:             teymur.veliyev001@gmail.com
   twitter:           /teymur647
   github:            /teymur-valiyev
-  linkedin:            /teymur-valiyev
+  linkedin:          /teymur-valiyev
 
 # Custom vars
 version:             1.0.0

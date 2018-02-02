@@ -1,3 +1,15 @@
+---
+author: teymur
+comments: true
+date: 2018-01-20 22:16:08+00:00
+layout: post
+slug: javasctipt-basic
+title: JavaScript basic
+categories: Tutorial
+tags:
+- javascipt
+---
+
 #JavaScript 
 
 > JavaScript is easy to learn. :))
@@ -525,7 +537,7 @@ When JavaScript was created, there was an idea of a “global object” that pro
 
 
 ## References
-* https://github.com/getify/You-Dont-Know-JS
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
-* https://medium.com/craft-academy/javascript-variables-should-you-use-let-var-or-const-394f7645c88f
-* https://javascript.info/
+* [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+* [https://medium.com/craft-academy/javascript-variables-should-you-use-let-var-or-const-394f7645c88f](https://medium.com/craft-academy/javascript-variables-should-you-use-let-var-or-const-394f7645c88f)
+* [https://javascript.info/](https://javascript.info)

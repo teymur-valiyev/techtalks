@@ -1,15 +1,17 @@
 ---
 author: teymur
-comments: false
+comments: true
 date: 2017-11-11 22:16:08+00:00
 layout: post
 slug: magento2-dependency-injection
 title: Magento 2 Dependency Injection
-categories: Personal
+categories: Tutorial
 tags:
 - php
 - magento2
 - oop
+- composer
+- dependency injection
 ---
 
 
@@ -573,3 +575,9 @@ As an example, consider the following two classes:
   ```
   
   With the proxy used in place of SlowLoading, the SlowLoading class will not be instantiated—and therefore, the resource intensive constructor operations not performed—until the SlowLoading object is used (that is, if the getSlowValue method is called).
+
+
+
+## References
+* [http://devdocs.magento.com/](http://devdocs.magento.com)
+* [https://alanstorm.com](https://alanstorm.com)
