@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About
-permalink: techtalks/about/
-redirect_from: about/
+permalink: about/
 ---
 
 <p class="message">
