@@ -8,6 +8,7 @@ title:               TechTalks
 tagline:             'TechTalks'
 description:         'TechTalks'
 url:                 https://teymur-valiyev.github.io/techtalks
+baseurl:             '/techtalks'
 paginate:            5
 
 # About/contact
