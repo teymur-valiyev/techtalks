@@ -214,8 +214,8 @@ Suppose one side is 25 meters (m) and the other side is 50 m. Then the largest b
 2. Conquer the subproblems by solving them recursively. If they are small enough, solve the subproblems as base cases.
 3. Combine the solutions to the subproblems into the solution for the original problem.
 
-![Alt text](../public/img/algorithms/divide_conquer.png?raw=true "Title")
-![Alt text](../public/img/algorithms/divide_conquer_example.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/divide_conquer.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/divide_conquer_example.png?raw=true "Title")
 
 
 #### Average case vs. worst case
@@ -269,8 +269,8 @@ exponential	−	2Ο(n)
 
 Greedy algorithms try to find a localized optimum solution, which may eventually lead to globally optimized solutions. However, generally greedy algorithms do not provide globally optimized solutions.
 
-![Alt text](../public/img/algorithms/greedy_algorithm_1.png?raw=true "Title")
-![Alt text](../public/img/algorithms/greedy_algorithm_2.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/greedy_algorithm_1.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/greedy_algorithm_2.png?raw=true "Title")
 
 Most networking algorithms use the greedy approach. Here is a list of few of them −
 
@@ -431,7 +431,7 @@ A and B are neighbors
 
 
 
-![Alt text](../public/img/algorithms/connection_degree.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/connection_degree.png?raw=true "Title")
 Directed graph—the relationship is only one way.
 
 
@@ -458,7 +458,7 @@ ever point back.
 
 One simple way to represent a graph is just a list, or array, of |E| ∣E∣vertical bar, E, vertical bar edges, which we call an edge list. To represent an edge, we just have an array of two vertex numbers, or an array of objects containing the vertex numbers of the vertices that the edges are incident on
 
-![Alt text](../public/img/algorithms/edge_list_example.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/edge_list_example.png?raw=true "Title")
 
 ```
 [ [0,1], [0,6], [0,8], [1,4], [1,6], [1,9], [2,4], [2,6], [3,4], [3,5],
@@ -469,7 +469,7 @@ One simple way to represent a graph is just a list, or array, of |E| ∣E∣vert
 
 For a graph with |V| ∣V∣vertical bar, V, vertical bar vertices, an adjacency matrix is a |V| \times |V| ∣V∣×∣V∣vertical bar, V, vertical bar, times, vertical bar, V, vertical bar matrix of 0s and 1s, where the entry in row i ii and column j jj is 1 if and only if the edge (i,j) (i,j)left parenthesis, i, comma, j, right parenthesis is in the graph. 
 
-![Alt text](../public/img/algorithms/adjacency_matrix_example.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/adjacency_matrix_example.png?raw=true "Title")
 
 Directed Graph
 	Unweighted graph boolean
@@ -479,7 +479,7 @@ Directed Graph
 
 Representing a graph with adjacency lists combines adjacency matrices with edge lists. For each vertex i ii, store an array of the vertices adjacent to it. We typically have an array of |V| ∣V∣vertical bar, V, vertical bar adjacency lists, one adjacency list per vertex. 
 
-![Alt text](../public/img/algorithms/adjacency_list_example.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/adjacency_list_example.png?raw=true "Title")
 
 In JavaScript, we represent these adjacency lists by:
 ```
@@ -520,7 +520,7 @@ Rule 3 − Repeat Rule 1 and Rule 2 until the queue is empty.
 ## Tree
 Tree represents the nodes connected by edges. 
 
-![Alt text](../public/img/algorithms/binary_tree.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/binary_tree.png?raw=true "Title")
 
 every tree have n nodes n-1 edges
 

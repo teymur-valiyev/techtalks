@@ -71,15 +71,7 @@ Loosely coupled designs allow us to build flexible OO systems that can handle ch
 the interdependency between objects.
 
 
-
-
-
-
 programming idiom.
-
-
-
-
 
 
 

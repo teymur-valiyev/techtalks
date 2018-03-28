@@ -270,7 +270,7 @@ Python has hash tables; they’re called dictionaries.
 Same as phone_book = dict()
 ```
 
-![Alt text](../public/img/algorithms/data_structure_time_comlexity.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/data_structure_time_comlexity.png?raw=true "Title")
 
 
 
@@ -283,7 +283,7 @@ dren. And nodes are positioned according to their value/key. Children nodes to t
 If we insert too many nodes in a Binary Search Tree, we end up with a tree of very high height, where many nodes have only one child. But we can rearrange nodes in a tree such that its height is reduced. This is called tree balancing . A perfectly balanced tree has the minimum possible height.
 
 
-![Alt text](../public/img/algorithms/balanced_tree.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/balanced_tree.png?raw=true "Title")
 
 ### The Red-Black Tree
 
@@ -308,7 +308,7 @@ as the Binary Search Tree, plus an extra restriction: a parent node
 must be greater (or smaller) than both its child nodes.
 
 
-![Alt text](../public/img/algorithms/binary_heap_tree.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/binary_heap_tree.png?raw=true "Title")
 
 ### The Graph
 The Graph is similar to the Tree. The difference is that there’s no
@@ -316,8 +316,8 @@ children or parent nodes, and therefore, no Root Node.
 For example, graphs are ideal for representing a social network, where nodes are people and edges represent friendships.
 
 
-
-https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
-https://www.tutorialspoint.com/data_structures_algorithms
-https://brilliant.org/practice/abstract-data-types-intro/?subtopic=types-and-data-structures
-http://bigocheatsheet.com/
+## References
+* [https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
+* [https://www.tutorialspoint.com/data_structures_algorithms](https://www.tutorialspoint.com/data_structures_algorithms)
+* [https://brilliant.org/practice/abstract-data-types-intro/?subtopic=types-and-data-structures](https://brilliant.org/practice/abstract-data-types-intro/?subtopic=types-and-data-structures)
+* [http://bigocheatsheet.com/](http://bigocheatsheet.com/)

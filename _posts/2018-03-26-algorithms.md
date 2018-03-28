@@ -131,8 +131,8 @@ are too slow.
 
 Greedy algorithms try to find a localized optimum solution, which may eventually lead to globally optimized solutions. However, generally greedy algorithms do not provide globally optimized solutions.
 
-![Alt text](../public/img/algorithms/greedy_algorithm_1.png?raw=true "Title")
-![Alt text](../public/img/algorithms/greedy_algorithm_2.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/greedy_algorithm_1.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/greedy_algorithm_2.png?raw=true "Title")
 
 Most networking algorithms use the greedy approach.
 Here is a list of few of them
@@ -177,7 +177,7 @@ the biggest box that will work for this size, that will be the biggest box
 that will work for the entire farm. You just reduced the problem from
 a 1680 × 640 farm to a 640 × 400 farm
 
-![Alt text](../public/img/algorithms/divide_conquer_land.png?raw=true "Divide Conquer Area Example")
+![Alt text](/techtalks/public/img/algorithms/divide_conquer_land.png?raw=true "Divide Conquer Area Example")
 
 you draw a box on that to get an even smaller segment.
 at the end the biggest plot size you can use is 80 × 80 m
@@ -190,8 +190,8 @@ at the end the biggest plot size you can use is 80 × 80 m
 2. Conquer the subproblems by solving them recursively. If they are small enough, solve the subproblems as base cases.
 3. Combine the solutions to the subproblems into the solution for the original problem.
 
-![Alt text](../public/img/algorithms/divide_conquer.png?raw=true "Title")
-![Alt text](../public/img/algorithms/divide_conquer_example.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/divide_conquer.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/divide_conquer_example.png?raw=true "Title")
 
 
 
