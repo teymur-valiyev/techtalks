@@ -11,6 +11,10 @@ url:                 https://teymur-valiyev.github.io
 baseurl:             '/techtalks'
 paginate:            5
 
+# Disqus Comments
+disqus:
+    shortname: https-teymur-valiyev-github-io-techtalks
+
 # About/contact
 author:
   name:              TechTalks

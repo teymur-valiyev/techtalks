@@ -520,7 +520,7 @@ Rule 3 − Repeat Rule 1 and Rule 2 until the queue is empty.
 ## Tree
 Tree represents the nodes connected by edges. 
 
-![Alt text](/techtalks/public/img/algorithms/binary_tree.png?raw=true "Title")
+![Alt text](/techtalks/public/img/algorithms/binary_tree.jpg?raw=true "Title")
 
 every tree have n nodes n-1 edges
 
