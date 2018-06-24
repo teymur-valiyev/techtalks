@@ -11,8 +11,11 @@ tags:
 ---
 
 ## Arithmetic series
+
+> A series is the sum of a sequence 
+
 ```
-a = {1,2,3,4,5,6,...,n}
+seq = {1,2,3,4,5,6,...,n}
 
 sum1 = 1+2+3+4 ... n
 sum2 = n + (n-1) + (n-2) + (n-3) ..   
@@ -28,6 +31,8 @@ n - last
 ```
 
 ### Arithmetic sequences
+
+> A sequence is an ordered list of elements
 
 ```
 seq = {1,5,9,13..}
@@ -47,6 +52,7 @@ sum = (2a+(n-1)d)/2
 
 n( a +  a + (n-1)d) / 2 
 first half a/2  + last haft (a + (n-1)d)/2 multiply n times
+
 ```
 Example 1
 ```

@@ -316,8 +316,127 @@ children or parent nodes, and therefore, no Root Node.
 For example, graphs are ideal for representing a social network, where nodes are people and edges represent friendships.
 
 
+### Types of Graphs
+
+* Undirected Graph - A undirected graph contains edges but the edges are not directed ones.
+* Directed Graph - In a directed graph, each edge has a direction.
+* Weighted Graphs - edges has weight to represent an value
+
+### Rerpresenting Graphs
+
+an adjacency matrix is a square matrix used to represent a finite graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph.
+
+
+![Alt text](/techtalks/public/img/datastructure/adjacency-matrix.png?raw=true "an adjacency matrix")
+
+
+### Tree
+A tree in an undirectect graph with no cycles.
+
+
+### Breadth-first search
+The algorithm to solve a shortest-path problem is called breadth-first search.
+
+Each graph is made up of nodes and edges.
+(A) ---edge---> (B)
+A and B are neighbors 
+
+• Question type 1: Is there a path from node A to node B?
+• Question type 2: What is the shortest path from node A to node B?
+
+
+
+### Graphs
+
+
+
+
+## Graph Implementations
+
+### Edge lists
+
+One simple way to represent a graph is just a list, or array, of |E| ∣E∣vertical bar, E, vertical bar edges, which we call an edge list. To represent an edge, we just have an array of two vertex numbers, or an array of objects containing the vertex numbers of the vertices that the edges are incident on
+
+![Alt text](/techtalks/public/img/algorithms/edge_list_example.png?raw=true "Title")
+
+```
+[ [0,1], [0,6], [0,8], [1,4], [1,6], [1,9], [2,4], [2,6], [3,4], [3,5],
+[3,8], [4,5], [4,9], [7,8], [7,9] ]
+```
+
+### Adjacency Matrix
+
+For a graph with |V| ∣V∣vertical bar, V, vertical bar vertices, an adjacency matrix is a |V| \times |V| ∣V∣×∣V∣vertical bar, V, vertical bar, times, vertical bar, V, vertical bar matrix of 0s and 1s, where the entry in row i ii and column j jj is 1 if and only if the edge (i,j) (i,j)left parenthesis, i, comma, j, right parenthesis is in the graph. 
+
+![Alt text](/techtalks/public/img/algorithms/adjacency_matrix_example.png?raw=true "Title")
+
+Directed Graph
+	Unweighted graph boolean
+	Weighted graph values
+
+### Adjacency List
+
+Representing a graph with adjacency lists combines adjacency matrices with edge lists. For each vertex i ii, store an array of the vertices adjacent to it. We typically have an array of |V| ∣V∣vertical bar, V, vertical bar adjacency lists, one adjacency list per vertex. 
+
+![Alt text](/techtalks/public/img/algorithms/adjacency_list_example.png?raw=true "Title")
+
+In JavaScript, we represent these adjacency lists by:
+```
+[ [1, 6, 8],
+  [0, 4, 6, 9],
+  [4, 6],
+  [4, 5, 8],
+  [1, 2, 3, 5, 9],
+  [3, 4],
+  [0, 1, 2],
+  [8, 9],
+  [0, 3, 7],
+  [1, 4, 7] ]
+ ```
+
+## Graph Traversals
+
+### Depth First Search (DFS) 
+
+Depth First Search (DFS) algorithm traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search, when a dead end occurs in any iteration.
+
+Rule 1 − Visit the adjacent unvisited vertex. Mark it as visited. Display it. Push it in a stack.
+Rule 2 − If no adjacent vertex is found, pop up a vertex from the stack. (It will pop up all the vertices from the 
+, which do not have adjacent vertices.)
+Rule 3 − Repeat Rule 1 and Rule 2 until the stack is empty.
+
+### Breadth First Search (BFS)
+
+Breadth First Search (BFS) algorithm traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration.
+
+
+Rule 1 − Visit the adjacent unvisited vertex. Mark it as visited. Display it. Insert it in a queue.
+Rule 2 − If no adjacent vertex is found, remove the first vertex from the queue.
+Rule 3 − Repeat Rule 1 and Rule 2 until the queue is empty.
+
+### Dijkstra’s algorithm
+
+## Tree
+Tree represents the nodes connected by edges. 
+
+![Alt text](/techtalks/public/img/algorithms/binary_tree.jpg?raw=true "Title")
+
+every tree have n nodes n-1 edges
+
+### Binary Search Tree
+
+A Binary Search Tree (BST) is a tree in which all the nodes follow the below-mentioned properties −
+
+The left sub-tree of a node has a key less than or equal to its parent node's key.
+
+The right sub-tree of a node has a key greater than to its parent node's key.
+
+
+https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P
+
 ## References
 * [https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
 * [https://www.tutorialspoint.com/data_structures_algorithms](https://www.tutorialspoint.com/data_structures_algorithms)
 * [https://brilliant.org/practice/abstract-data-types-intro/?subtopic=types-and-data-structures](https://brilliant.org/practice/abstract-data-types-intro/?subtopic=types-and-data-structures)
 * [http://bigocheatsheet.com/](http://bigocheatsheet.com/)
+
