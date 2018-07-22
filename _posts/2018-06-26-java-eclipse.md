@@ -43,3 +43,12 @@ toggle block selection blog
 alt + up - moves code to up
 
 right click + source + format -  make format 
+
+
+window -> custimze persoective
+
+ctrl + j find by increment multipe it will search type string
+
+search -> accurrences in file -> 
+
+ctrl + 1  -> quick fixes
