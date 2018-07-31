@@ -43,3 +43,53 @@ toggle block selection blog
 alt + up - moves code to up
 
 right click + source + format -  make format 
+
+### Debuging
+
+f6 - step into
+f5 - step over
+
+ctrl + alt  = hiber debuging
+
+
+breakpoint 
+
+properties
+* hit count
+* conditional
+* wait for value change
+
+watchpoint
+method
+java exception
+java class load
+group by type
+attached actions
+import/export
+
+
+hit count - S
+
+
+If you want to search in files: Ctrl+H and then choose tab File Search.
+
+If you want to search for resources: Ctrl+Shift+R.
+
+If you want to search for Java types: Ctrl+Shift+T.
+
+If you want more shortcut keys: Ctrl+Shift+L.
+
+
+eclipse drop the frame 
+dropes the frame only dropes local variable values inside frame
+
+kodu deyish save edende drop the frame edir
+
+
+force return 
+it return value immediately 
+> trick you can change varible value highlight in dubug mod Display windows and run force return  
+
+
+## Remote debugging
+
