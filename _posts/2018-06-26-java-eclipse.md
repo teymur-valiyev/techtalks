@@ -44,6 +44,7 @@ alt + up - moves code to up
 
 right click + source + format -  make format 
 
+<<<<<<< HEAD
 ### Debuging
 
 f6 - step into
@@ -93,3 +94,13 @@ it return value immediately
 
 ## Remote debugging
 
+=======
+
+window -> custimze persoective
+
+ctrl + j find by increment multipe it will search type string
+
+search -> accurrences in file -> 
+
+ctrl + 1  -> quick fixes
+>>>>>>> 1365c28b05ca5a98e0f50b2b8291c9808cb66991
