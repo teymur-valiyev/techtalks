@@ -1,3 +1,17 @@
+
+---
+author: teymur
+comments: true
+date: 2019-04-09 00:00:00+00:00
+layout: post
+slug: java-swing
+title: Java Swing 
+categories: Tutorial
+tags:
+- java
+- swing
+---
+
 Swing The Model View Controller
 
 * Model The model encompasses the state data for each component. There are different models for different types of components. For example, the model of a scrollbar component might contain information about the current position of its adjustable "thumb," its minimum and maximum values, and the thumb's width (relative to the range of values). A menu, on the other hand, may simply contain a list of the menu items the user can select from. This information remains the same no matter how the component is painted on the screen; model data is always independent of the component's visual representation.

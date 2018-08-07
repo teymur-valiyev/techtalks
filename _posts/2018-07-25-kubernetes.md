@@ -1,3 +1,14 @@
+---
+author: teymur
+comments: true
+date: 2019-04-09 00:00:00+00:00
+layout: post
+slug: kubernetes
+title: Kubernetes
+categories: Tutorial
+tags:
+- kubernetes
+---
 
 ## Kubernetes
 

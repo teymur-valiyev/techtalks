@@ -1,4 +1,15 @@
-
+---
+author: teymur
+comments: true
+date: 2019-04-09 00:00:00+00:00
+layout: post
+slug: docker-compose
+title: Docker compose
+categories: Tutorial
+tags:
+- docker
+- docker-compose
+---
 
 links:
 

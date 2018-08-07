@@ -1,3 +1,16 @@
+---
+author: teymur
+comments: true
+date: 2019-04-09 00:00:00+00:00
+layout: post
+slug: rhino
+title: Rhino
+categories: Tutorial
+tags:
+- java
+- rhino
+---
+
  
 Rhino is a SSJS engine, which is written in Java.
 

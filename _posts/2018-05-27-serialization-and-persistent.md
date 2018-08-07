@@ -1,3 +1,15 @@
+---
+author: teymur
+comments: true
+date: 2019-04-09 00:00:00+00:00
+layout: post
+slug: c-cpp
+title: C pointer and references
+categories: Tutorial
+tags:
+- c
+- c++
+---
 
 ### c pointer and references
 
