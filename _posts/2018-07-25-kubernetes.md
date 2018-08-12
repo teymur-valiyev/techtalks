@@ -6,6 +6,7 @@ layout: post
 slug: kubernetes
 title: Kubernetes
 categories: Tutorial
+published: false
 tags:
 - kubernetes
 ---

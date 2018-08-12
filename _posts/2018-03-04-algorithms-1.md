@@ -1,3 +1,15 @@
+---
+author: teymur
+comments: true
+date: 2018-02-17 22:16:08+00:00
+layout: post
+slug: algorithms-basic
+title: Algorithms basic
+categories: Tutorial
+published: false
+tags:
+- algorithms
+---
 
 # Algorithms 
 

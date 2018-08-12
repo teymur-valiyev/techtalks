@@ -7,6 +7,7 @@ layout: post
 slug: java-swing
 title: Java Swing 
 categories: Tutorial
+published: false
 tags:
 - java
 - swing

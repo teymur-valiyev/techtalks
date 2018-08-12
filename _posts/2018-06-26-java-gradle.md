@@ -7,6 +7,7 @@ layout: post
 slug: gradle
 title: Java Gradle
 categories: Tutorial
+published: false
 tags:
 - java
 - gradle

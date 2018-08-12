@@ -6,6 +6,7 @@ layout: post
 slug: c-cpp
 title: C pointer and references
 categories: Tutorial
+published: false
 tags:
 - c
 - c++

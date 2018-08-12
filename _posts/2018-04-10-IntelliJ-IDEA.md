@@ -6,6 +6,7 @@ layout: post
 slug: intellij
 title: Intellij 
 categories: Tutorial
+published: false
 tags:
 - intellij
 ---

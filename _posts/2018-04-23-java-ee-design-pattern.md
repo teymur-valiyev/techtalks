@@ -6,6 +6,7 @@ layout: post
 slug: jee
 title: Java Jee 
 categories: Tutorial
+published: false
 tags:
 - java
 - jee

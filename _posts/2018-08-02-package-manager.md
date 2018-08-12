@@ -6,6 +6,7 @@ layout: post
 slug: package-manager
 title: Package Manager
 categories: Tutorial
+published: false
 tags:
 - linux
 - package-manager

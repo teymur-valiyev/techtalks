@@ -6,6 +6,7 @@ layout: post
 slug: maven
 title: Java maven
 categories: Tutorial
+published: false
 tags:
 - java
 - maven

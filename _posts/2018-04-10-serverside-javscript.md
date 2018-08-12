@@ -6,6 +6,7 @@ layout: post
 slug: rhino
 title: Rhino
 categories: Tutorial
+published: false
 tags:
 - java
 - rhino

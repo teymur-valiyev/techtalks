@@ -6,6 +6,7 @@ layout: post
 slug: oracle-sql
 title: Oracle Sql
 categories: Tutorial
+published: false
 tags:
 - oracle
 - sql
