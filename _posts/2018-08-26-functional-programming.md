@@ -348,10 +348,59 @@ const incrementEach = (ar, by) =>
 
 
 
+### Church arithmetic
 
 
+One
+
+N1 := λfa.fa - takes function and argument and applies function argument
+
+Two
+
+N1 := λfa.f(fa)
+
+```
+twice = f => a => f(f(a))
+```
+```
+jsnum = n => n(x => x+1)(0);
+jsnum(once) // 1
+```
+
+```
+zero = f => a => a
+once = f => a => f(a)
+twice = f => a => f(f(a))
+
+succ = n => f => a => f(n(f)(a));
+```
+```
+succ(twice)(x => x+1)(1) // 4
+```
+
+### Bluebird combinator
+
+> λfga.f(ga) 
+B = f => g => a => f(g(a));
+
+```
+B(jsnum)(succ)(twice);
+```
+
+### Vireo
+
+> λabf.fab
+
+```
+V =  a => b => f => f(a)(b)`
+``` 
+
+### Loop
+
+> (λx.xx)(λx.xx)
+λx - input x calc x with argument x
 
 
-
-
-
+### Y Combinator 
+rec 
+> λf.(λx.f(xx))(λx.f(xx))
